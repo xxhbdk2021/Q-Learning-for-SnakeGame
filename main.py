@@ -60,5 +60,5 @@ def test_model(gameObj, playerObj):
             time.sleep(1)
             break
 
-# test_model(gameObj, playerObj)
-train_model(dstoreObj, playerObj, qlossObj, optimObj, epochs, dsEpisode, t, batchSize)
+test_model(gameObj, playerObj)
+# train_model(dstoreObj, playerObj, qlossObj, optimObj, epochs, dsEpisode, t, batchSize)
