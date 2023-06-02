@@ -1,2 +1,2 @@
 # Q-Learning-for-SnakeGame
-implementation by Python
+Implementation by Python
