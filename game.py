@@ -204,14 +204,6 @@ class SnakeGame(object):
             self.__place_food()
 
 
-    # def __place_food(self):
-    #     colIdx = numpy.random.randint(5, self.__colNum-5)
-    #     rowIdx = numpy.random.randint(5, self.__rowNum-5)
-    #     self.__food = Point(colIdx, rowIdx)
-    #     if self.__food in self.__snake:
-    #         self.__place_food()
-
-
     def __init_snake(self):
         self.__direction = Direction.RIGHT
         head = Point(self.__colNum//2, self.__rowNum//2)

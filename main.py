@@ -17,7 +17,7 @@ queSize = 10000
 epochs = 1000
 dsEpisode = 30
 t = 300
-batchSize = 100
+batchSize = 500
 modelname = "model.pt"
 
 if os.path.isfile(modelname):
@@ -57,7 +57,7 @@ def test_model(gameObj, playerObj):
         overStatus, reward, rewardSum, foodCnt, iterCnt = gameObj.set_action(action, True, 10000)
 
         if overStatus:
-            time.sleep(1)
+            time.sleep(3)
             break
 
 test_model(gameObj, playerObj)
